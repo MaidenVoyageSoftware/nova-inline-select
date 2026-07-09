@@ -4,7 +4,7 @@ namespace Tests\Unit;
 
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
-use KirschbaumDevelopment\Nova\InlineSelect;
+use MaidenVoyageSoftware\Nova\InlineSelect;
 
 class InlineSelectLensTest extends TestCase
 {

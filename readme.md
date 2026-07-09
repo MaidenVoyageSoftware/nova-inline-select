@@ -30,12 +30,12 @@ composer require kirschbaum-development/nova-inline-select
 
 ## Usage
 
-Next you can use the `KirschbaumDevelopment\Nova\InlineSelect` field in your Nova resource:
+Next you can use the `MaidenVoyageSoftware\Nova\InlineSelect` field in your Nova resource:
 
 ```php
 namespace App\Nova;
 
-use KirschbaumDevelopment\Nova\InlineSelect;
+use MaidenVoyageSoftware\Nova\InlineSelect;
 
 class User extends Resource
 {
@@ -128,7 +128,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email brandon@kirschbaumdevelopment.com or nathan@kirschbaumdevelopment.com instead of using the issue tracker.
+If you discover any security related issues, please email brandon@MaidenVoyageSoftware.com or nathan@MaidenVoyageSoftware.com instead of using the issue tracker.
 
 ## Credits
 
@@ -136,7 +136,7 @@ If you discover any security related issues, please email brandon@kirschbaumdeve
 
 ## Sponsorship
 
-Development of this package is sponsored by Kirschbaum Development Group, a developer driven company focused on problem solving, team building, and community. Learn more [about us](https://kirschbaumdevelopment.com) or [join us](https://careers.kirschbaumdevelopment.com)!
+Development of this package is sponsored by Kirschbaum Development Group, a developer driven company focused on problem solving, team building, and community. Learn more [about us](https://MaidenVoyageSoftware.com) or [join us](https://careers.MaidenVoyageSoftware.com)!
 
 ## License
 

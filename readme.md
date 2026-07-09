@@ -1,3 +1,6 @@
+# Laravel Nova v5
+This package has been forked from kirschbaum-development/nova-inline-select and updated to support Laravel Nova v5.
+
 ![Nova Inline Select banner](https://raw.githubusercontent.com/kirschbaum-development/nova-inline-select/master/screenshots/banner.jpg)
 
 # An inline select field for Nova apps
@@ -24,18 +27,31 @@ This Nova field requires Nova 1.0 or higher.
 
 You can install this package in a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
+First, add this to the repositories section of your composer.json file:
+
+```text
+"repositories": [
+    {
+        "type": "git",
+        "url": "https://github.com/MaidenVoyageSoftware/nova-inline-select.git"
+    },
+]
+```
+
+Then, install the package as usual
+
 ```bash
 composer require kirschbaum-development/nova-inline-select
 ```
 
 ## Usage
 
-Next you can use the `MaidenVoyageSoftware\Nova\InlineSelect` field in your Nova resource:
+Next you can use the `KirschbaumDevelopment\Nova\InlineSelect` field in your Nova resource:
 
 ```php
 namespace App\Nova;
 
-use MaidenVoyageSoftware\Nova\InlineSelect;
+use KirschbaumDevelopment\Nova\InlineSelect;
 
 class User extends Resource
 {
@@ -128,7 +144,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email brandon@MaidenVoyageSoftware.com or nathan@MaidenVoyageSoftware.com instead of using the issue tracker.
+If you discover any security related issues, please email brandon@kirschbaumdevelopment.com or nathan@kirschbaumdevelopment.com instead of using the issue tracker.
 
 ## Credits
 
@@ -136,7 +152,7 @@ If you discover any security related issues, please email brandon@MaidenVoyageSo
 
 ## Sponsorship
 
-Development of this package is sponsored by Kirschbaum Development Group, a developer driven company focused on problem solving, team building, and community. Learn more [about us](https://MaidenVoyageSoftware.com) or [join us](https://careers.MaidenVoyageSoftware.com)!
+Development of this package is sponsored by Kirschbaum Development Group, a developer driven company focused on problem solving, team building, and community. Learn more [about us](https://kirschbaumdevelopment.com) or [join us](https://careers.kirschbaumdevelopment.com)!
 
 ## License
 

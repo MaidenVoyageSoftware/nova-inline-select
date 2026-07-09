@@ -1,5 +1,5 @@
 {
-    "name": "maidenvoyagesoftware/nova-inline-select",
+    "name": "kirschbaum-development/nova-inline-select",
     "description": "An inline select field for Laravel Nova apps.",
     "keywords": [
         "laravel",
@@ -16,7 +16,7 @@
     "authors": [
         {
             "name": "Brandon Ferens",
-            "email": "brandon@MaidenVoyageSoftware.com",
+            "email": "brandon@kirschbaumdevelopment.com",
             "role": "Developer"
         }
     ],
@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MaidenVoyageSoftware\\Nova\\": "src/"
+            "KirschbaumDevelopment\\Nova\\": "src/"
         }
     },
     "autoload-dev": {
@@ -40,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MaidenVoyageSoftware\\Nova\\InlineSelectFieldServiceProvider"
+                "KirschbaumDevelopment\\Nova\\InlineSelectFieldServiceProvider"
             ]
         }
     },
